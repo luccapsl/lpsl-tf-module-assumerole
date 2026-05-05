@@ -261,7 +261,7 @@ echo | openssl s_client \
 
 ```hcl
 module "assumerole" {
-  source = "./modulos_baselabs/tf-baselabsmodules-assumerole"
+  source = "./lpsl-tf-module-assumerole"
 
   account_initials = "mycompany-dev"
 
